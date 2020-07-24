@@ -1,0 +1,15 @@
+.alert-bg{
+    background-color: #3b3a72;
+    padding:10px 0 10px 0;
+}
+.mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+.pic1{
+    padding-top: 40px;
+}
+

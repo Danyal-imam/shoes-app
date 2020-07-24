@@ -11,9 +11,14 @@ const useStyles = makeStyles((theme) => ({
     alignItems:'center',
   },
  
-  title: {
-   
+  link: {
+   textDecoration:"none",
+   color:"#fff",
+
   },
+  title: {
+  }
+
 }));
 
 export default function NavBar() {
@@ -24,14 +29,14 @@ export default function NavBar() {
       <AppBar position="static" >
         <Toolbar className={classes.root}>
           <Typography variant="h6" className={classes.title}>
-            <Link to='/'>Home</Link>
+            <Link to='/' className={classes.link}>Home</Link>
           </Typography>
           
           <Typography >
-            <Link to='men'>Men</Link>
+            <Link to='men'className={classes.link}>Men</Link>
           </Typography>
           <Typography >
-          <Link to='women'>Women</Link>
+          <Link to='women' className={classes.link}>Women</Link>
           </Typography>
         </Toolbar>
       </AppBar>

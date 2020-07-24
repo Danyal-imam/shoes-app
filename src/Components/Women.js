@@ -5,7 +5,7 @@ import { Outlet } from 'react-router'
 function Women() {
     return (
         <div>
-            <h1>women products</h1>
+            <h1 style={{textAlign:"center"}}>Ladies Sneakers</h1>
             <Outlet />
         </div>
     )

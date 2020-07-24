@@ -4,7 +4,7 @@ import {Outlet} from 'react-router-dom'
 function Men() {
     return (
         <div>
-            <h1>men products</h1>
+            <h1 style={{textAlign:"center"}}>Gents Sneakers</h1>
             <Outlet />
         </div>
     )
